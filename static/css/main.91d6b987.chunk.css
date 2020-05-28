@@ -1,0 +1,2 @@
+body{margin:0;padding:0}.input-field,.todo{display:flex;justify-content:space-between}.todo{align-items:center;border:1px solid #e0e0e0;border-radius:2px;line-height:1.5rem;padding:.5rem 1rem;margin-bottom:1rem}.todo i{color:#ef5350}.todo.checked span{text-decoration:line-through}.todo button{border:none;outline:none;background-color:transparent;cursor:pointer}.btn-floating{flex-shrink:0}
+/*# sourceMappingURL=main.91d6b987.chunk.css.map */
