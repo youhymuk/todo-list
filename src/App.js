@@ -4,7 +4,8 @@ import TodoList from "./components/TodoList";
 import reducer from "./reducer";
 
 const App = () => {
-	const [state, dispatch] = useReducer(reducer, [])
+	const [state, dispatch] = useReducer(reducer,
+		JSON.parse(localStorage.getItem('todos')) || [])
 
 	useEffect(() => {
 		localStorage.setItem('todos', JSON.stringify(state))
